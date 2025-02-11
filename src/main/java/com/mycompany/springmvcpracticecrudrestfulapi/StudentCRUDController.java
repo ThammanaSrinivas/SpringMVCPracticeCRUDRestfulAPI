@@ -60,7 +60,7 @@ public class StudentCRUDController {
         return studentDAO.updateStudent(student);
     }
     
-    @GetMapping("/studentdetails")
+    @GetMapping("/studentdetail")
     public List<Student> getStudentDetails() throws SQLException {
         return studentDAO.getStudentDetails();
     }
